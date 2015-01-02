@@ -21,7 +21,7 @@ The file sync is implemented between the two devices by running a server program
 and when there is a new file on either, server establishes the connection with the client when the
 file exchange is required. 
 
-
+ 
 The applications run on Android mobile device and Laptop computer server.
 We have implemented the following scenario between the Android device and Laptop using Socket Programming for TCP connection establishment and communication.
 
