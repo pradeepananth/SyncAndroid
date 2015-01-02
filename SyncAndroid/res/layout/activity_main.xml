@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+  <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Welcome" />
+
+    <TextView
+        android:id="@+id/tvPath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Path: " />
+
+    <Button
+        android:id="@+id/bBrowse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Browse" >
+    </Button>
+
+    <Button
+        android:id="@+id/bSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/MobileSync" />
+<TextView
+        android:id="@+id/tvSent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MobileSync status: " />
+    
+    
+     <Button
+        android:id="@+id/bReceive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/PCSync" />
+     
+       <TextView
+        android:id="@+id/tvReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PCSync status: " />
+     
+     
+    <ImageView
+        android:id="@+id/ivPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+</ImageView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SyncAndroid</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="Welcome">Welcome</string>
+    <string name="MobileSync">MobileSync</string>
+    <string name="Browse">Browse</string>
+    <string name="PCSync">PCSync</string>
+</resources>
